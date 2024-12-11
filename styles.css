@@ -1,0 +1,24 @@
+.pagination-prev,
+.pagination-next,
+.pagination-first,
+.pagination-last {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.pagination-prev svg,
+.pagination-next svg,
+.pagination-first svg,
+.pagination-last svg {
+  width: 24px;
+  height: 24px;
+  fill: #4caf50; /* Change color */
+}
+
+.pagination-prev:hover svg,
+.pagination-next:hover svg,
+.pagination-first:hover svg,
+.pagination-last:hover svg {
+  fill: #2e7d32; /* Hover color */
+}
